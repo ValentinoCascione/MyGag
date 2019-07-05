@@ -1,0 +1,107 @@
+body {
+    background-color: lightgrey;
+}
+
+.card {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.card img {
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10% auto;
+    border-radius: 1rem;
+}
+
+.card h4 {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card p {
+    font-family: 'Oswald', sans-serif;
+    width: 96%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title-create, .form-login, .form-register {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-create, .form-login, .form-register {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.form-create .form-control {
+    margin-top: 5%;
+}
+
+.form-create .btn, .form-login .btn, .form-register .btn {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+nav {
+    display: flex;
+    height: 5%;
+    width: 100%;
+    background: lightgrey;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    color: black;   
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.delete-btn {
+    border-radius: 50%;
+    background: red;
+    height: 30px;
+    width: 30px;
+}
