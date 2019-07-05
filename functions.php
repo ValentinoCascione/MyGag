@@ -51,14 +51,20 @@ function createPost($title, $container, $image, $id_user) {
 }
 
 function updatePost($id, $title, $container, $image) {
+   /* var_dump($id);
+    var_dump($title);
+    var_dump($container);
+    var_dump($image);*/
+    
     try {
         $con = getDatabaseConnexion();
         $requete = "UPDATE post set
-                    title = '$title'
-                    container = '$container'
+                    title = '$title',
+                    container = '$container',
                     image = '$image'
                     WHERE id = '$id'";
         $stmt = $con->query($requete);
+        
     }
     catch(PDOException $e) {
         echo $sql . "<br>" . $e->getMessage();

@@ -19,7 +19,7 @@ function showTab($rows) {
           <?php echo "</form>" ?>
 
           <?php echo "<form action='update' class='del' method='POST'>" ?>
-            <?php echo "<input name='up' type='submit' class='update-btn' value='modifier'>" ?>
+            <?php echo "<input name='up' type='submit' class='update-btn' value='M'>" ?>
             <?php echo "<input name='up-2' type='hidden' value='" . $row["id"] . "'>" ?>
           <?php echo "</form>" ?>
              <?php } ?>

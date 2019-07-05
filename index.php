@@ -21,7 +21,10 @@ if ($REQUEST_URI == '/register') {
     include $PATHS['logout'];
 } elseif ($REQUEST_URI == '/update') {
     include $PATHS['update'];
-}elseif ($REQUEST_URI == '/delete') {
+} elseif ($REQUEST_URI == '/updatePost') {
+    updatePost($_POST['idPost'], $_POST['title'], $_POST['container'], $_POST['image']);
+    header('location:home');
+} elseif ($REQUEST_URI == '/delete') {
     deletePost($_POST['del-2']);
     header('location:home');
 }else {

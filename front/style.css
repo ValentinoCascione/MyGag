@@ -105,3 +105,16 @@ nav ul li a:hover {
     height: 30px;
     width: 30px;
 }
+
+.update-btn {
+    border-radius: 50%;
+    background: green;
+    height: 30px;
+    width: 30px;
+}
+
+footer {
+    height: 5%;
+    width: 100%;
+    background: lightgrey;
+}
